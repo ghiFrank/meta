@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <img class="pic" src="logo.png" alt="A logo">
+        <h1 id="header">Our Menu</h1>
+        <h2 class="falafel">Falafel</h2>
+        <p class="falafel">Chickpea, hebs and spices.</p>
+        <img src="falafel.jpeg" alt="A falafel" class="pic">
+        <h2 class="salad">Pasta Salad</h2>
+        <p class="salad">Lettuce, vegetables and mozzarella</p>
+        <img src="salad.jpeg" alt="A salad" class="pic"><br>
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Falafel</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Pasta Salad</td>
+                <td>$16.00</td>
+            </tr>
+        </table><br>
+        <a href="location.html">Our location</a>
+        <form action="/registration" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password"/><br>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

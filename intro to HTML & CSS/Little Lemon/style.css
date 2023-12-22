@@ -1,0 +1,39 @@
+body {
+    background-size: auto;
+    background-color:tan;
+}
+#header {
+    color:darkslategray;
+    width: fit-content;
+    padding: 5px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h2.falafel {
+    padding-top: 20px;
+    color: brown;
+}
+
+.falafel {
+    width: fit-content;
+    padding: 2px;
+    margin: auto;
+}
+
+h2.salad {
+    padding-top: 20px;
+    color: green;
+}
+.salad {
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+}
+.pic {
+    width: 10%;
+    height: 20%;
+    margin: auto;
+}
