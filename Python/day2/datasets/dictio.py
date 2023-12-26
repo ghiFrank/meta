@@ -1,6 +1,6 @@
 dictio = {1: 'one', 'number': 5}
 dictio["two"] = 2
-print(dictio)
+print(dictio[1])
 
 dictio['number'] = 3
 print(dictio)
